@@ -5,6 +5,7 @@ body{
     background-image: url(/prototips/prototip_12/imatges/unsplash_cm0eSVxdLDg.png);
     background-repeat: no-repeat;
     background-size: contain;
+    font-family: "Roboto Mono", monospace;
 }
 
 /* Container */
@@ -12,35 +13,39 @@ body{
 .container-slave{
     display:flex;
     justify-content: space-between;
+    
 }
 
 /* Text */
 
-
+.text-title{
+    margin-top: 150px;
+    margin-right: 50px;
+    margin-bottom: 0;
+}
 
 .text-p{
-    font-family: sans-serif;
-    font-weight: 400px;
+    font-weight: 1000px;
     font-size: 24px;
     line-height: 33px;
     letter-spacing: 0%;
     text-align: right;
-    width: 700px;
+    width: 800px;
     color: aliceblue; 
-    margin-right: 100px;
+    margin-left: 45px;
+    
 }
 
 
 .Title{
-font-family:sans-serif;
 font-weight: 700px;
 font-size: 60px;
 line-height: 76px;
 letter-spacing: 0%;
 text-align: right;
-width: 650px;
+width: 800px;
 color: aliceblue;
-margin-left: 40px;
+margin-left: 50px;
 margin-top: 100px;
 }
 
@@ -56,7 +61,7 @@ margin-top: 100px;
     padding-bottom: 24px;
     padding-left: 56px;
     border-radius: 40px;
-    margin-left: 450px;
+    margin-left: 580px;
     font-weight: bold;
     font-size: larger;
     display: flex; 
@@ -66,9 +71,21 @@ margin-top: 100px;
   }
   
 
+  
+
 
 
 /* iconos */
+
+.social-icons {
+    display: flex; 
+    flex-direction: column;
+    gap: 50px; 
+    margin-top: 340px; 
+    align-items: center; 
+    margin-left: 50px;
+}
+
 
 .vector img{
 width: 40px;
@@ -77,4 +94,38 @@ top: 376px;
 left: 66px;
 gap: 48px;
 
+}
+
+/* Boxes */
+
+.DownPartBox {
+    display: flex;
+    align-items: center; 
+    justify-content: space-around; 
+    font-family: Roboto Mono;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    margin-top: 210px;
+    margin-left: 60px;
+
+    
+
+}
+
+.text-down {
+    display: flex; 
+    align-items: center; 
+    gap: 20px; 
+    color: aliceblue;
+    width: 500px;
+}
+
+.text-down img {
+    height: auto; 
+}
+
+.text-down p {
+    margin: 0; 
 }

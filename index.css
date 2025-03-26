@@ -80,3 +80,8 @@ footer p {
     margin: 0; 
 }
 
+/* down text */
+
+.downpart{
+    display: flex;
+}
