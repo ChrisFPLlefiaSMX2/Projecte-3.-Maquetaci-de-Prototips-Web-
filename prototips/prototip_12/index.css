@@ -1,4 +1,14 @@
 body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Container */
+
+
+.container-master{
     width: 1440px;
     height: 1024px;
     margin: 0;
@@ -8,7 +18,7 @@ body{
     font-family: "Roboto Mono", monospace;
 }
 
-/* Container */
+
 
 .container-slave{
     display:flex;
@@ -102,15 +112,9 @@ gap: 48px;
     align-items: center; 
     justify-content: space-around; 
     font-family: Roboto Mono;
-    font-weight: 400;
+    font-weight: 400px;
     font-size: 20px;
-    line-height: 100%;
-    letter-spacing: 0%;
-    margin-top: 210px;
     margin-left: 60px;
-
-    
-
 }
 
 .text-down {
@@ -119,12 +123,14 @@ gap: 48px;
     gap: 20px; 
     color: aliceblue;
     width: 500px;
+    
 }
 
 .text-down img {
     height: auto; 
 }
 
-.text-down p {
-    margin: 0; 
+.text-down {
+    margin-top: -160px; 
 }
+
