@@ -4,6 +4,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    font-family: "Sen", sans-serif;
 }
 
 .container-master{
@@ -18,11 +19,68 @@ body {
     justify-content: space-between;
 }
 
-.title-text{
-    width: 600px;
+
+h1{
+    font-size: 90px;
+    width: 720px;
+    margin-left: 30px;
+}
+
+p{
     font-size: 30px;
+    width: 600px;
+    margin-left: 30px;
+   
 }
 
 button{
+    margin-left: 30px;
+    width: 182px;
+    height: 66px;
+    gap: 10px;
+    border-radius: 36px;
+    padding: 20px 50px 20px 50px;
+    font-size: 20px;
+    font-weight: bolder;
+    color: white;
+    background-color: #252525;
+   
+}
+
+.picture{
+    margin-right: 30px;
+    margin-top: 10px;
     
 }
+
+/* Part2 */
+
+.second-one{
+    display: flex;
+    width: 1312;
+    height: 298;
+    top: 666.66px;
+    left: 64px;
+    gap: 8px;
+    border-radius: 40px;
+    padding: 64px;
+    color: aliceblue;
+    background-color: #252525;
+    margin-top: 90px;
+
+
+}
+
+.img-vector{
+    margin-left: 28px;
+}
+
+.text-h3{
+    font-size: 30px;
+    margin-left: 28px;
+}
+
+ .text-p{
+    font-size: 25px;
+    width: 400px;
+ }
