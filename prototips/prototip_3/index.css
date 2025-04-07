@@ -1,4 +1,11 @@
 body{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ height: 100vh;
+}
+
+.container-master{
     display: flex;
     align-items: flex-end;
     height: 100vh;

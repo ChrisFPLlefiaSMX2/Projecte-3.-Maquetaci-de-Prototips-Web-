@@ -1,11 +1,16 @@
 body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container-master{
     width: 1440px;
     height: 954px;
     box-shadow: -4px 2px 33px -7px rgba(0,0,0,0.75);
     font-family: "Poppins", sans-serif;
 }
-
-
 /* texto */
 
 h1{
@@ -28,10 +33,18 @@ p{
 
 /* imagenes */
 
+
+
 .core-div {
     display: flex;
     align-items: center;
-    justify-content: center; 
-    padding-top: 0;
+    justify-content: center;
     gap: 70px;
+    
+}
+
+
+
+.div-img {
+    margin-top: -20px; 
 }
