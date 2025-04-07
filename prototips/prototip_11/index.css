@@ -3,9 +3,9 @@ body {
    justify-content: center;
    align-items: center;
    height: 100vh;
+  
 }
-
-
+/* Container  */
 .container-master{
     margin: 0; 
     padding: 0; 
@@ -24,89 +24,61 @@ body {
     box-sizing: border-box;
 }
 
-
-
-.sub-content {
-    color: white;
-    flex-direction: column;
-    position: absolute; 
-    top: 35%; 
-    left: 30%; 
-    right: 20%;
-    transform: translate(-50%, -50%); 
-   
+.block-text {
+    position: relative;
+    top: 130px; 
+    left: 90px;
+    color: aliceblue;
 }
-
-/* Text */
-
-
-.box-main{
-    display: flex;
-    gap: 30px;
-}
-
 
 .content-h1{
-    font-size: 88px;
-    width: 700px;
-    margin-bottom: 20px;
+    font-size: 90px;
+    width: 600px;
 }
 
 .content-text{
-    font-size: 24px;
-    width: 500px;
-    margin-top: 1px;
-    x
+    font-size: 22px;
+    width: 480px;
 }
 
 button{
-width: 216;
-height: 66;
+width: 200px;
+height: 64px;
 gap: 10px;
 border-radius: 16px;
-padding-top: 24px;
-padding-right: 48px;
-padding-bottom: 24px;
-padding-left: 48px;
-margin-top: 20px;
+font-size: 20px;
 }
 
-.content-btn{
-    font-family: "Lato", sans-serif;
-    font-weight: 400;
-    font-size: 24px;
-    line-height: 18px;
-    letter-spacing: 0%;
-    
-    }
-
-
-/* boxes */
-
-.item-box {
-    width: 388px;
-    height: 235px;
-    border-radius: 16px;
-    background-color: #49494980;
-    box-shadow: 0px 0px 9px 0px rgba(0, 0, 0, 0.75);
-    position: relative; 
-    top: -319px; 
-    left: 68px;
-    margin: 15px; 
-    color: white;
-}
-
-.item-box {
+.box-three{
     display: flex;
-    align-items: center;    
-    justify-content: center; 
+    justify-content: center;
+    gap: 70px;
+    position: relative;
+    top: -300px;
+    right: -19px;
+    color:aliceblue ;
+
+}
+
+
+.item-box{
+    width: 390px;
+    height: 232px;
+    border-radius: 16px;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.25) 0%, rgba(255, 255, 255, 0.125) 68.53%);
+
+}
+
+
+.item-h3{
+    font-size: 32px;
+    margin-left: 40px;
     
 }
 
-
-.sub-box p {
-    text-align:initial; 
+.item-p{
     width: 300px;
-    font-size: 24px;
-}
+    font-size: 25px;
+    margin-left: 40px;
 
+}
